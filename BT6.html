@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = [1, 2, 3, 4, 5, 6, 7];
+    let input = Number(prompt('Nhap mot so bat ki:'));
+    let check = false;
+    for (let x = 0; x < num.length; x++) {
+        if (num[x] === input) {
+            check= true;
+            alert(input + '' + 'is in the array');
+
+        }
+    }
+    if (check!=true){
+        alert(input+'is not in the array');
+    }
+</script>
+</body>
+</html>

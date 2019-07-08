@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num=[1,2,3,4,5,6,7,8,9,10,11,12];
+    let max=0;
+    let sum=0;
+    let tb=0;
+    for (let x=0;x<num.length;x++){
+        if (num[x]>max){
+            max=num[x]
+        }
+       sum=sum+num[x]
+    }
+    trungbinh=sum/num.length;
+   document.write('gia tri max:'+max+'<br>' + 'trung binh:'+trungbinh);
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = [5, 8, 9, 1, 10, -2];
+    let input = Number(prompt('Nhap mot so bat ki'));
+    for (let x = 0; x < num.length; x++) {
+        if (num[x] === input) {
+            num.splice(x, 1);
+            document.write(num);
+        }
+    }
+</script>
+</body>
+</html>
